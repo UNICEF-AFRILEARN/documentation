@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        <link rel="canonical" href="https://afrilearn.github.io/contributing/">
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Contributing - Afrilearn</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css">
+
+        <script src="../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="..">Afrilearn</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href=".." class="nav-link">Home</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../charter/" class="nav-link">Project Charter</a>
+                            </li>
+                            <li class="navitem active">
+                                <a href="./" class="nav-link">Contributing</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../charter/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" class="nav-link disabled">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#contributing-to-afrilearn" class="nav-link">Contributing to Afrilearn</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="1"><a href="#code-of-conduct" class="nav-link">Code of conduct</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="1"><a href="#your-first-contribution" class="nav-link">Your First Contribution</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="1"><a href="#getting-started" class="nav-link">Getting started</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="1"><a href="#how-to-report-a-bug" class="nav-link">How to report a bug</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="1"><a href="#how-to-suggest-a-feature-or-enhancement" class="nav-link">How to suggest a feature or enhancement</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="1"><a href="#code-review-process" class="nav-link">Code review process</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="contributing-to-afrilearn">Contributing to Afrilearn</h1>
+<blockquote>
+<p>First off, thank you for considering contributing to Afrilearn e-learning platform. It's people like you that make the Afrilearn e-learning platform such a great learning tool. We are glad to have you and we look forward to your exciting contributions here.</p>
+<p>Following these guidelines helps to communicate that you respect the time of the developers managing and developing this open source project. In return, they should reciprocate that respect in addressing your issue, assessing changes, and helping you finalize your pull requests.</p>
+</blockquote>
+<p>Keep an open mind! Improving documentation, bug triaging, or writing tutorials are all examples of helpful contributions that mean less work for you.</p>
+<blockquote>
+<p>The Afrilearn e-learning platform is an open source project and we love to receive contributions from our community — you! There are many ways to contribute, from writing tutorials or blog posts, improving the documentation, submitting bug reports and feature requests or writing code which can be incorporated into the Afrilearn e-learning platform itself.</p>
+</blockquote>
+<h1 id="code-of-conduct">Code of conduct</h1>
+<blockquote>
+<p>Responsibilities
+* Ensure cross-platform compatibility for every change that's accepted. Windows, Mac, Debian &amp; Ubuntu Linux.
+* Create issues for any major changes and enhancements that you wish to make. Discuss things transparently and get community feedback.
+* Don't add any classes to the codebase unless absolutely needed. Err on the side of using functions.
+* Keep feature versions as small as possible, preferably one new feature per version.
+* Be welcoming to newcomers and encourage diverse new contributors from all backgrounds. See the <a href="https://www.python.org/psf/codeofconduct/">Python Community Code of Conduct</a>.</p>
+</blockquote>
+<h1 id="your-first-contribution">Your First Contribution</h1>
+<blockquote>
+<p>Unsure where to begin contributing to Atom? You can start by looking through these beginner and help-wanted issues:
+Beginner issues - issues which should only require a few lines of code, and a test or two.
+Help wanted issues - issues which should be a bit more involved than beginner issues.
+Both issue lists are sorted by total number of comments. While not perfect, number of comments is a reasonable proxy for impact a given change will have.</p>
+<p>Working on your first Pull Request? You can learn how from this <em>free</em> series, <a href="https://egghead.io/series/how-to-contribute-to-an-open-source-project-on-github">How to Contribute to an Open Source Project on GitHub</a>.</p>
+<p>At this point, you're ready to make your changes! Feel free to ask for help; everyone is a beginner at first :smile_cat:</p>
+<p>If a maintainer asks you to "rebase" your PR, they're saying that a lot of code has changed, and that you need to update your branch so it's easier to merge.</p>
+</blockquote>
+<h1 id="getting-started">Getting started</h1>
+<blockquote>
+<p>For something that is bigger than a one or two line fix:
+1. Create your own fork of the code
+2. Do the changes in your fork
+3. If you like the change and think the project could use it:
+    * Be sure you have followed the code style for the project.
+    * Sign the Contributor License Agreement, CLA, with the jQuery Foundation.
+    * Note the jQuery Foundation Code of Conduct.
+    * Send a pull request indicating that you have a CLA on file.</p>
+</blockquote>
+<h1 id="how-to-report-a-bug">How to report a bug</h1>
+<blockquote>
+<p>If you find a security vulnerability, do NOT open an issue. Email security@afrilearn.com instead.</p>
+</blockquote>
+<p>If you don’t want to use your personal contact information, set up a “security@” email address. Larger projects might have more formal processes for disclosing security, including encrypted communication. (Disclosure: I am not a security expert.)</p>
+<blockquote>
+<p>Any security issues should be submitted directly to security@afrilearn.com
+In order to determine whether you are dealing with a security issue, ask yourself these two questions:
+* Can I access something that's not mine, or something I shouldn't have access to?
+* Can I disable something for other people?</p>
+<p>If the answer to either of those two questions are "yes", then you're probably dealing with a security issue. Note that even if you answer "no" to both questions, you may still be dealing with a security issue, so if you're unsure, just email us at security@afrilearn.com.</p>
+<p>When filing an issue, make sure to answer these five questions:</p>
+<ol>
+<li>What version of Go are you using (go version)?</li>
+<li>What operating system and processor architecture are you using?</li>
+<li>What did you do?</li>
+<li>What did you expect to see?</li>
+<li>What did you see instead?</li>
+</ol>
+</blockquote>
+<h1 id="how-to-suggest-a-feature-or-enhancement">How to suggest a feature or enhancement</h1>
+<blockquote>
+<p>Our philosophy is to cheap, easy, accessible and personalized learning to students across Africa. We are always looking to improve the user experience on our platform and make education more accessible. Feature enhancement suggestions to help us achieve this goal are welcome and highly appreciated.</p>
+<p>If you find yourself wishing for a feature that doesn't exist in the Afrilearn e-learning platform, you are probably not alone. There are bound to be others out there with similar needs. Many of the features that Afrilearn e-learning platform has today have been added because our users saw the need. Open an issue on our issues list on GitHub which describes the feature you would like to see, why you need it, and how it should work.</p>
+</blockquote>
+<h1 id="code-review-process">Code review process</h1>
+<blockquote>
+<p>The core team looks at Pull Requests on a regular basis in a monthly triage meeting that we hold in a public Google Hangout. The hangout is announced in the monthly status updates that are sent to the slack list. Notes are posted to the Slack Community community-triage repo and include a link to a YouTube recording of the hangout.
+After feedback has been given we expect responses within two weeks. After two weeks we may close the pull request if it isn't showing any activity.</p>
+</blockquote></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js" defer></script>
+        <script src="../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
