@@ -16,9 +16,9 @@ Create issues for any major changes and enhancements that you wish to make. Disc
 
 Don't add any classes to the codebase unless absolutely needed. Err on the side of using functions.
 
-> Keep feature versions as small as possible, preferably one new feature per version.
+Keep feature versions as small as possible, preferably one new feature per version.
 
-> Be welcoming to newcomers and encourage diverse new contributors from all backgrounds. See the [Python Community Code of Conduct](https://www.python.org/psf/codeofconduct/).
+Be welcoming to newcomers and encourage diverse new contributors from all backgrounds. See the [Python Community Code of Conduct](https://www.python.org/psf/codeofconduct/).
 
 # Your First Contribution
 
