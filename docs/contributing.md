@@ -22,35 +22,32 @@ Don't add any classes to the codebase unless absolutely needed. Err on the side 
 
 # Your First Contribution
 
-> Unsure where to begin contributing to Atom? You can start by looking through these beginner and help-wanted issues:
+Unsure where to begin contributing to Atom? You can start by looking through these beginner and help-wanted issues:
 
-> Beginner issues - issues which should only require a few lines of code, and a test or two.
+Beginner issues - issues which should only require a few lines of code, and a test or two.
 
-> Help wanted issues - issues which should be a bit more involved than beginner issues.
+Help wanted issues - issues which should be a bit more involved than beginner issues.
 
-> Both issue lists are sorted by total number of comments. While not perfect, number of comments is a reasonable proxy for impact a given change will have.
+Both issue lists are sorted by total number of comments. While not perfect, number of comments is a reasonable proxy for impact a given change will have.
 
-> Working on your first Pull Request? You can learn how from this *free* series, [How to Contribute to an Open Source Project on GitHub](https://egghead.io/series/how-to-contribute-to-an-open-source-project-on-github).
+Working on your first Pull Request? You can learn how from this *free* series, [How to Contribute to an Open Source Project on GitHub](https://egghead.io/series/how-to-contribute-to-an-open-source-project-on-github).
 
->At this point, you're ready to make your changes! Feel free to ask for help; everyone is a beginner at first :smile_cat:
+At this point, you're ready to make your changes! Feel free to ask for help; everyone is a beginner at first :smile_cat:
 
->If a maintainer asks you to "rebase" your PR, they're saying that a lot of code has changed, and that you need to update your branch so it's easier to merge.
+If a maintainer asks you to "rebase" your PR, they're saying that a lot of code has changed, and that you need to update your branch so it's easier to merge.
 
 # Getting started
 
->For something that is bigger than a one or two line fix:
+For something that is bigger than a one or two line fix:
 
->1. Create your own fork of the code and create your branch from main.
+    1. Create your own fork of the code and create your branch from main.
+    2. Do the changes in your fork.
+    3. Includes tests for codes that need to be tested and the test suite is passed.
+    4. Ensure your code lints. You can check this pylint tutorials here: [Pylint tutorial](https://pylint.pycqa.org/en/v2.16.1/tutorial.html).
+    5. Send a pull request.
 
->2. Do the changes in your fork
-
->3. Includes tests for codes that need to be tested and the test suite is passed.
-
->4. Ensure your code lints. You can check this pylint tutorials here: [Pylint tutorial](https://pylint.pycqa.org/en/v2.16.1/tutorial.html).
-
->5. Send a pull request.
-
-
+## License
+By contributing, you agree that your contributions will be licensed under the [GNU General Public License v3.0](https://choosealicense.com/licenses/gpl-3.0/)
 
 # How to report a bug
 
@@ -60,7 +57,7 @@ Don't add any classes to the codebase unless absolutely needed. Err on the side 
 
 - In order to determine whether you are dealing with a security issue, ask yourself these two questions:
 
-    -  Can I access something that's not mine, or something I shouldn't have access to?
+    - Can I access something that's not mine, or something I shouldn't have access to?
 
     - Can I disable something for other people?
 
@@ -76,13 +73,15 @@ Don't add any classes to the codebase unless absolutely needed. Err on the side 
 
 - Here is an example of a good bug report: [Reporting a bug](https://stackoverflow.com/questions/12488905/why-wont-the-ggplot2-legend-combine-manual-fill-and-scale-values)
 
+- You can report a bug by filing an issue here: [Report a bug](https://github.com/UNICEF-AFRILEARN/unicef_afrilearn/issues/new)
+
 # How to suggest a feature or enhancement
 
-> Our philosophy is to cheap, easy, accessible and personalized learning to students across Africa. We are always looking to improve the user experience on our platform and make education more accessible. Feature enhancement suggestions to help us achieve this goal are welcome and highly appreciated.
+Our philosophy is to cheap, easy, accessible and personalized learning to students across Africa. We are always looking to improve the user experience on our platform and make education more accessible. Feature enhancement suggestions to help us achieve this goal are welcome and highly appreciated.
 
-> If you find yourself wishing for a feature that doesn't exist in the Afrilearn e-learning platform, you are probably not alone. There are bound to be others out there with similar needs. Many of the features that Afrilearn e-learning platform has today have been added because our users saw the need. Open an issue on our issues list on GitHub which describes the feature you would like to see, why you need it, and how it should work.
+If you find yourself wishing for a feature that doesn't exist in the Afrilearn e-learning platform, you are probably not alone. There are bound to be others out there with similar needs. Many of the features that Afrilearn e-learning platform has today have been added because our users saw the need. Open an issue on our issues list on GitHub which describes the feature you would like to see, why you need it, and how it should work.
 
 # Code review process
-> The core team looks at Pull Requests on a regular basis in a monthly triage meeting that we hold in a public Google Hangout. The hangout is announced in the monthly status updates that are sent to the slack list. Notes are posted to the Slack Community community-triage repo and include a link to a YouTube recording of the hangout.
+The core team looks at Pull Requests on a regular basis in a monthly triage meeting that we hold in a public Google Hangout. The hangout is announced in the monthly status updates that are sent to the slack list. Notes are posted to the Slack Community community-triage repo and include a link to a YouTube recording of the hangout.
 
-> After feedback has been given we expect responses within two weeks. After two weeks we may close the pull request if it isn't showing any activity.
+After feedback has been given we expect responses within two weeks. After two weeks we may close the pull request if it isn't showing any activity.
