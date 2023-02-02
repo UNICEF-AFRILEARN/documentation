@@ -11,17 +11,25 @@ Keep an open mind! Improving documentation, bug triaging, or writing tutorials a
 # Code of conduct
 
 > Responsibilities
+
 > Ensure cross-platform compatibility for every change that's accepted. Windows, Mac, Debian & Ubuntu Linux.
+
 > Create issues for any major changes and enhancements that you wish to make. Discuss things transparently and get community feedback.
+
 > Don't add any classes to the codebase unless absolutely needed. Err on the side of using functions.
+
 > Keep feature versions as small as possible, preferably one new feature per version.
+
 > Be welcoming to newcomers and encourage diverse new contributors from all backgrounds. See the [Python Community Code of Conduct](https://www.python.org/psf/codeofconduct/).
 
 # Your First Contribution
 
 > Unsure where to begin contributing to Atom? You can start by looking through these beginner and help-wanted issues:
+
 > Beginner issues - issues which should only require a few lines of code, and a test or two.
+
 > Help wanted issues - issues which should be a bit more involved than beginner issues.
+
 > Both issue lists are sorted by total number of comments. While not perfect, number of comments is a reasonable proxy for impact a given change will have.
 
 > Working on your first Pull Request? You can learn how from this *free* series, [How to Contribute to an Open Source Project on GitHub](https://egghead.io/series/how-to-contribute-to-an-open-source-project-on-github).
