@@ -10,10 +10,6 @@ Keep an open mind! Improving documentation, bug triaging, or writing tutorials a
 
 # Code of conduct
 
-Responsibilities
-
-Ensure cross-platform compatibility for every change that's accepted. Windows, Mac, Debian & Ubuntu Linux.
-
 Create issues for any major changes and enhancements that you wish to make. Discuss things transparently and get community feedback.
 
 Don't add any classes to the codebase unless absolutely needed. Err on the side of using functions.
