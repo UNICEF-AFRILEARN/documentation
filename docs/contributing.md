@@ -63,7 +63,7 @@ By contributing, you agree that your contributions will be licensed under the [G
 
 - If the answer to either of those two questions are "yes", then you're probably dealing with a security issue. Note that even if you answer "no" to both questions, you may still be dealing with a security issue, so if you're unsure, just email us at security@afrilearn.com.
 
-- When filing an issue, make sure to answer these five questions:
+When filing an issue, make sure to answer these five questions:
 
     1. What device are you using - mobile phone or laptop?
     2. What operating system and processor architecture are you using?
