@@ -1,22 +1,20 @@
 # Contributing to Afrilearn
 
->First off, thank you for considering contributing to Afrilearn e-learning platform. It's people like you that make the Afrilearn e-learning platform such a great learning tool. We are glad to have you and we look forward to your exciting contributions here.
+First off, thank you for considering contributing to Afrilearn e-learning platform. It's people like you that make the Afrilearn e-learning platform such a great learning tool. We are glad to have you and we look forward to your exciting contributions here.
 
->Following these guidelines helps to communicate that you respect the time of the developers managing and developing this open source project. In return, they should reciprocate that respect in addressing your issue, assessing changes, and helping you finalize your pull requests.
+Following these guidelines helps to communicate that you respect the time of the developers managing and developing this open source project. In return, they should reciprocate that respect in addressing your issue, assessing changes, and helping you finalize your pull requests.
 
 Keep an open mind! Improving documentation, bug triaging, or writing tutorials are all examples of helpful contributions that mean less work for you.
 
-> The Afrilearn e-learning platform is an open source project and we love to receive contributions from our community — you! There are many ways to contribute, from writing tutorials or blog posts, improving the documentation, submitting bug reports and feature requests or writing code which can be incorporated into the Afrilearn e-learning platform itself.
+The Afrilearn e-learning platform is an open source project and we love to receive contributions from our community — you! There are many ways to contribute, from writing tutorials or blog posts, improving the documentation, submitting bug reports and feature requests or writing code which can be incorporated into the Afrilearn e-learning platform itself.
 
 # Code of conduct
 
-> Responsibilities
+Ensure cross-platform compatibility for every change that's accepted. Windows, Mac, Debian & Ubuntu Linux.
 
-> Ensure cross-platform compatibility for every change that's accepted. Windows, Mac, Debian & Ubuntu Linux.
+Create issues for any major changes and enhancements that you wish to make. Discuss things transparently and get community feedback.
 
-> Create issues for any major changes and enhancements that you wish to make. Discuss things transparently and get community feedback.
-
-> Don't add any classes to the codebase unless absolutely needed. Err on the side of using functions.
+Don't add any classes to the codebase unless absolutely needed. Err on the side of using functions.
 
 > Keep feature versions as small as possible, preferably one new feature per version.
 
@@ -42,37 +40,34 @@ Keep an open mind! Improving documentation, bug triaging, or writing tutorials a
 
 >For something that is bigger than a one or two line fix:
 
->1. Create your own fork of the code
+>1. Create your own fork of the code and create your branch from main.
 
 >2. Do the changes in your fork
 
->3. If you like the change and think the project could use it:
-    * Be sure you have followed the code style for the project.
+>3. Includes tests for codes that need to be tested and the test suite is passed.
 
-    * Sign the Contributor License Agreement, CLA, with the jQuery Foundation.
+>4. Ensure your code lints. You can check this pylint tutorials here: [Pylint tutorial](https://pylint.pycqa.org/en/v2.16.1/tutorial.html).
 
-    * Note the jQuery Foundation Code of Conduct.
+>5. Send a pull request.
 
-    * Send a pull request indicating that you have a CLA on file.
+
 
 # How to report a bug
 
-> If you find a security vulnerability, do NOT open an issue. Email security@afrilearn.com instead.
+- If you find a security vulnerability, do NOT open an issue. Email security@afrilearn.com instead.
 
-If you don’t want to use your personal contact information, set up a “security@” email address. Larger projects might have more formal processes for disclosing security, including encrypted communication. (Disclosure: I am not a security expert.)
+- If you don’t want to use your personal contact information, set up a “security@” email address. Larger projects might have more formal processes for disclosing security, including encrypted communication. (Disclosure: I am not a security expert.)
 
-> Any security issues should be submitted directly to security@afrilearn.com
+- In order to determine whether you are dealing with a security issue, ask yourself these two questions:
 
-> In order to determine whether you are dealing with a security issue, ask yourself these two questions:
+- -  Can I access something that's not mine, or something I shouldn't have access to?
 
-> * Can I access something that's not mine, or something I shouldn't have access to?
+- - Can I disable something for other people?
 
-> * Can I disable something for other people?
+- If the answer to either of those two questions are "yes", then you're probably dealing with a security issue. Note that even if you answer "no" to both questions, you may still be dealing with a security issue, so if you're unsure, just email us at security@afrilearn.com.
 
-> If the answer to either of those two questions are "yes", then you're probably dealing with a security issue. Note that even if you answer "no" to both questions, you may still be dealing with a security issue, so if you're unsure, just email us at security@afrilearn.com.
+- When filing an issue, make sure to answer these five questions:
 
-> When filing an issue, make sure to answer these five questions:
->
 > 1. What device are you using - mobile phone or laptop?
 
 > 2. What operating system and processor architecture are you using?
@@ -82,6 +77,8 @@ If you don’t want to use your personal contact information, set up a “securi
 > 4. What did you expect to see?
 
 > 5. What did you see instead?
+
+- Here is an example of a good bug report: [Reporting a bug](https://stackoverflow.com/questions/12488905/why-wont-the-ggplot2-legend-combine-manual-fill-and-scale-values)
 
 # How to suggest a feature or enhancement
 
