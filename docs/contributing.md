@@ -71,7 +71,7 @@ By contributing, you agree that your contributions will be licensed under the [G
     4. What did you expect to see?
     5. What did you see instead?
 
-- Here is an example of a good bug report: [Reporting a bug](https://stackoverflow.com/questions/12488905/why-wont-the-ggplot2-legend-combine-manual-fill-and-scale-values)
+- Here is an example of a good bug report: [An example bug report](https://stackoverflow.com/questions/12488905/why-wont-the-ggplot2-legend-combine-manual-fill-and-scale-values)
 
 - You can report a bug by filing an issue here: [Report a bug](https://github.com/UNICEF-AFRILEARN/unicef_afrilearn/issues/new)
 
