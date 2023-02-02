@@ -1,5 +1,7 @@
 site_name: Afrilearn
 site_url: https://afrilearn.github.io
+theme:
+  name: material
 nav:
     - Home: index.md
     - Project Charter: charter.md

@@ -47,7 +47,6 @@ Keep an open mind! Improving documentation, bug triaging, or writing tutorials a
 >2. Do the changes in your fork
 
 >3. If you like the change and think the project could use it:
-
     * Be sure you have followed the code style for the project.
 
     * Sign the Contributor License Agreement, CLA, with the jQuery Foundation.
@@ -74,7 +73,7 @@ If you don’t want to use your personal contact information, set up a “securi
 
 > When filing an issue, make sure to answer these five questions:
 >
-> 1. What version of Go are you using (go version)?
+> 1. What device are you using - mobile phone or laptop?
 
 > 2. What operating system and processor architecture are you using?
 
