@@ -68,15 +68,15 @@ Don't add any classes to the codebase unless absolutely needed. Err on the side 
 
 - When filing an issue, make sure to answer these five questions:
 
-> 1. What device are you using - mobile phone or laptop?
+1. What device are you using - mobile phone or laptop?
 
-> 2. What operating system and processor architecture are you using?
+2. What operating system and processor architecture are you using?
 
-> 3. What did you do?
+3. What did you do?
 
-> 4. What did you expect to see?
+4. What did you expect to see?
 
-> 5. What did you see instead?
+5. What did you see instead?
 
 - Here is an example of a good bug report: [Reporting a bug](https://stackoverflow.com/questions/12488905/why-wont-the-ggplot2-legend-combine-manual-fill-and-scale-values)
 
