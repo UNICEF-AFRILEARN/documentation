@@ -10,13 +10,17 @@ Keep an open mind! Improving documentation, bug triaging, or writing tutorials a
 
 # Code of conduct
 
-Create issues for any major changes and enhancements that you wish to make. Discuss things transparently and get community feedback.
+> Responsibilities
 
-Don't add any classes to the codebase unless absolutely needed. Err on the side of using functions.
+> Ensure cross-platform compatibility for every change that's accepted. Windows, Mac, Debian & Ubuntu Linux.
 
-Keep feature versions as small as possible, preferably one new feature per version.
+> Create issues for any major changes and enhancements that you wish to make. Discuss things transparently and get community feedback.
 
-Be welcoming to newcomers and encourage diverse new contributors from all backgrounds. See the [Python Community Code of Conduct](https://www.python.org/psf/codeofconduct/).
+> Don't add any classes to the codebase unless absolutely needed. Err on the side of using functions.
+
+> Keep feature versions as small as possible, preferably one new feature per version.
+
+> Be welcoming to newcomers and encourage diverse new contributors from all backgrounds. See the [Python Community Code of Conduct](https://www.python.org/psf/codeofconduct/).
 
 # Your First Contribution
 
@@ -37,12 +41,19 @@ Be welcoming to newcomers and encourage diverse new contributors from all backgr
 # Getting started
 
 >For something that is bigger than a one or two line fix:
+
 >1. Create your own fork of the code
+
 >2. Do the changes in your fork
+
 >3. If you like the change and think the project could use it:
+
     * Be sure you have followed the code style for the project.
+
     * Sign the Contributor License Agreement, CLA, with the jQuery Foundation.
+
     * Note the jQuery Foundation Code of Conduct.
+
     * Send a pull request indicating that you have a CLA on file.
 
 # How to report a bug
@@ -52,18 +63,25 @@ Be welcoming to newcomers and encourage diverse new contributors from all backgr
 If you don’t want to use your personal contact information, set up a “security@” email address. Larger projects might have more formal processes for disclosing security, including encrypted communication. (Disclosure: I am not a security expert.)
 
 > Any security issues should be submitted directly to security@afrilearn.com
+
 > In order to determine whether you are dealing with a security issue, ask yourself these two questions:
+
 > * Can I access something that's not mine, or something I shouldn't have access to?
+
 > * Can I disable something for other people?
->
+
 > If the answer to either of those two questions are "yes", then you're probably dealing with a security issue. Note that even if you answer "no" to both questions, you may still be dealing with a security issue, so if you're unsure, just email us at security@afrilearn.com.
 
 > When filing an issue, make sure to answer these five questions:
 >
 > 1. What version of Go are you using (go version)?
+
 > 2. What operating system and processor architecture are you using?
+
 > 3. What did you do?
+
 > 4. What did you expect to see?
+
 > 5. What did you see instead?
 
 # How to suggest a feature or enhancement
@@ -74,4 +92,5 @@ If you don’t want to use your personal contact information, set up a “securi
 
 # Code review process
 > The core team looks at Pull Requests on a regular basis in a monthly triage meeting that we hold in a public Google Hangout. The hangout is announced in the monthly status updates that are sent to the slack list. Notes are posted to the Slack Community community-triage repo and include a link to a YouTube recording of the hangout.
+
 > After feedback has been given we expect responses within two weeks. After two weeks we may close the pull request if it isn't showing any activity.
